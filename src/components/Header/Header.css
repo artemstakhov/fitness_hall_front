@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+  width: 100%;
+}
+div, header, aside, p, input, button, a, form, span, ul, li {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.menuWrapper{
+  height: 15vh;
+  background: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty{
+width: 924px;
+}
+.menu{
+  height: 52px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItems{
+  height: 22px;
+  width: 514px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.items{
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item{
+  color: white;
+  font-size: 2.4vh;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.item:hover{
+  font-size:  2.7vh;
+}
+
+.logo{
+  display: flex;
+    width: 254px;
+}
+
+
+
+.user{
+  min-width: 7.8vh;
+  min-height: 7.8vh;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user a {
+font-family: 'Inter' sans-serif ;
+font-style: normal;
+font-weight: 500;
+font-size: 4.81vh;
+line-height: 39px;
+color: #313131;
+}
+.logoText{
+  max-height: 55px; 
+}
+
+.logoName{
+  font-family: 'Nunito Sans' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.logoTitle {
+font-family: 'Nunito Sans' sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}

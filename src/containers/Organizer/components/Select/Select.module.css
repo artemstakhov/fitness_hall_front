@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+}
+
+.container > div {
+    background-color: #313131;
+    color: #FFF;
+}
+
+.container div input {
+    color: #FFF;
+}

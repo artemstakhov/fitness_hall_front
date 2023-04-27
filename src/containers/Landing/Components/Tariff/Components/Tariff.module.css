@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  div, header, aside, p, input, button, a, form, span, ul, li {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .wrapper {
+    height: 56.9vh;
+    width: 441.1px;
+    background-color: #313131;
+  }
+
+  .titleWrapper {
+    height: 11.8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .description {
+    height: 9vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .mark {
+    margin-right: 10px;
+  }
+
+  .description p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+  }
+
+  .submit {
+    height: 65px;
+    width: 100%;
+    background-color: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    background: #313131;
+
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .wrapper:hover {
+    background-color: #FBBE23;
+  }
+
+  .wrapper:hover .submit{
+    background-color: #FBBE23;
+    color: #313131;
+  }
+
+
+  .wrapper:hover .description p {
+    color: #313131;
+  }
+
+  .wrapper:hover .mark {
+    filter: brightness(0);
+  }
+
+  .wrapper:hover .description {
+    color: #313131;
+    border-bottom: 1px solid #313131;
+    border-top: 1px solid #313131;
+  }
+
+  .wrapper:hover .title {
+    color: #313131;
+  }

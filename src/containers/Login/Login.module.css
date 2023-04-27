@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  div, header, aside, p, input, button, a, form, span, ul, li {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .auth {
+    height: 54.04vh;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2.5px);
+    border-radius: 9px;
+    padding: 20px; 
+  }
+
+  .titleWrapper {
+    height: 6.7vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 4.99vh;
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    color: #000000;
+
+  }
+
+  .enterDataParagraph {
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.94vh;
+    color: #000000;
+  }
+
+  .enterDataParagraphWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11px;
+    gap: 28px;
+  }
+
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    width: 300px;
+    height: 7.75vh;
+    background: #313131;
+    border-radius: 15px;
+  }
+
+  .input {
+    width: 208px;
+    margin-right: 10px;
+    background: #313131;
+    border: none;
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-size: 2.21vh;
+    margin-left: 10px;
+    color: #FFFFFF;
+  }
+
+  .input::placeholder {
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-size: 2.21vh;
+    margin-left: 10px;
+    color: #FFFFFF;
+    
+  }
+
+  .visibility { 
+    /* filter: brightness(0.6); */
+    cursor: pointer;
+  }
+
+  .rememberWrapper {
+    margin-top: 30px;
+    width: 320px;
+  }
+  .rememberTitle {
+    margin-left: 20px;
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .rememberTitle input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: flex;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border: 2px solid #313131;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .rememberTitle input[type=checkbox]:checked {
+    background-color: #313131;
+  }
+
+  .submit {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 300px;
+    height: 7.75vh;
+    background: #313131;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .submit:hover {
+    background: #FBBE23;
+    color: #000000;
+  }
+
+  .empty {
+    opacity: 0;
+  }
